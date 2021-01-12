@@ -1,0 +1,27 @@
+.card {
+	max-width: 30vw;
+	margin: 0 2vw;
+}
+
+.card:hover {
+	border: 2px solid blue;
+}
+
+.card img {
+	width: 30vw;
+	margin: 0 0 0 0;
+}
+
+.valor {
+	width: 5vw;
+	font-size: 3em;
+	float: left;
+	margin: 0 10px 0 20px;
+}
+
+.texto {
+	margin: 15px 0 0 40px;
+	width: 15vw;
+	float: left;
+}
+

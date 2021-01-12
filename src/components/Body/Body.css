@@ -1,0 +1,9 @@
+.app-body {                
+	min-height: 100vh;
+	background-color: azure;
+	color: #282c34;
+	size: calc(10px + 2vmin);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
