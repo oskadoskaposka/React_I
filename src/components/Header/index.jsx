@@ -1,9 +1,9 @@
 import './Header.css'
 
-const Header = () => {
+const Header = (props) => {
 	return(
 		<header className="app-header">
-		<h1>Header</h1>
+			<h1>{props.children}</h1>
 		</header>
 	)}
 

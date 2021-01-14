@@ -1,5 +1,5 @@
 .card {
-	max-width: 30vw;
+	max-width: 29vw;
 	margin: 0 2vw;
 }
 
@@ -7,21 +7,24 @@
 	border: 2px solid blue;
 }
 
+.Titulo {
+	font-size: 20px;
+}
+
 .card img {
-	width: 30vw;
+	width: 29vw;
 	margin: 0 0 0 0;
 }
 
-.valor {
+.preco {
 	width: 5vw;
 	font-size: 3em;
 	float: left;
 	margin: 0 10px 0 20px;
 }
 
-.texto {
+.descricao {
 	margin: 15px 0 0 40px;
 	width: 15vw;
 	float: left;
 }
-

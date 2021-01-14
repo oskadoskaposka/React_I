@@ -1,15 +1,16 @@
 import './cards.css'
-import img from '../../assets/predio.jpg'
+import { BuyButton } from '../../style'
 
-const card = () => {
+const card = (props) => {
 	return (
 		<div className="card">
-			<img src={img} alt=""/>
-			<p className='valor'>300$</p>
-			<p className='texto'> Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
-	
+			<h1 className='Titulo'>{props.titulo}</h1>
+			<img src={props.img} alt=""/>
+			<p className='descricao'>{props.descricao}</p>
+			<p className='preco'>R${props.preco.toFixed(2).replace("." , ",")}</p>
+			<BuyButton isPrimary={true}> Comprar </BuyButton>
 		</div>
 	)
 }
 
-export default card
+export default card 
