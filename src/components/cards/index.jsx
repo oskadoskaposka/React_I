@@ -8,7 +8,8 @@ const card = (props) => {
 			<img src={props.img} alt=""/>
 			<p className='descricao'>{props.descricao}</p>
 			<p className='preco'>R${props.preco.toFixed(2).replace("." , ",")}</p>
-			<BuyButton isPrimary={true}> Comprar </BuyButton>
+			<BuyButton onClick={()=>{alert(`Você comprou ${props.titulo} por R$ ${props.preco.toFixed(2).replace("." , ",")}`)}} isPrimary={true}> Comprar </BuyButton>
+
 		</div>
 	)
 }
